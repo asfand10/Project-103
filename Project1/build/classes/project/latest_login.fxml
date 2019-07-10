@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXPasswordField?>
+<?import com.jfoenix.controls.JFXTextField?>
+<?import javafx.scene.control.Hyperlink?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.effect.Reflection?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="640.0" prefWidth="1164.0" style="-fx-background-color: #20120F;" xmlns="http://javafx.com/javafx/8.0.141" xmlns:fx="http://javafx.com/fxml/1" fx:controller="project.MainController">
+   <children>
+      <AnchorPane layoutX="730.0" layoutY="52.0" prefHeight="568.0" prefWidth="426.0" style="-fx-background-color: #9C2B27;">
+         <children>
+            <JFXPasswordField fx:id="Password" focusColor="#4dc9ff" layoutX="89.0" layoutY="249.0" prefHeight="31.0" prefWidth="273.0" promptText="password" unFocusColor="#5399d7" />
+            <JFXTextField fx:id="Username" focusColor="#4dc9ff" layoutX="90.0" layoutY="182.0" prefHeight="31.0" prefWidth="273.0" promptText="username/email" unFocusColor="#5399d7f0" />
+            <JFXButton layoutX="89.0" layoutY="344.0" onAction="#Login" prefHeight="36.0" prefWidth="273.0" style="-fx-background-color: E05C4A;" text="Login" textFill="WHITE" />
+            <Label alignment="CENTER" layoutX="157.0" layoutY="56.0" prefHeight="21.0" prefWidth="113.0" text="Sign In" textFill="#e8e8e8">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Label>
+            <Hyperlink layoutX="162.0" layoutY="490.0" text="Forgot Password?" textFill="WHITE" underline="true" />
+            <ImageView fitHeight="109.0" fitWidth="149.0" opacity="0.23" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../image/logo-design-phoenix.gif" />
+               </image>
+            </ImageView>
+            <Label fx:id="LabelID" layoutX="88.0" layoutY="130.0" prefHeight="21.0" prefWidth="273.0" textFill="WHITE" />
+         </children>
+      </AnchorPane>
+      <ImageView fitHeight="640.0" fitWidth="712.0" layoutY="1.0" opacity="0.34" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../image/Best-Wallpapers-67(1).jpg" />
+         </image>
+      </ImageView>
+      <Label alignment="CENTER" layoutX="100.0" layoutY="140.0" prefHeight="47.0" prefWidth="345.0" text="Welcome to GEAR-UP" textFill="WHITE">
+         <font>
+            <Font size="32.0" />
+         </font>
+         <effect>
+            <Reflection />
+         </effect>
+      </Label>
+      <Label layoutX="253.0" layoutY="376.0" prefHeight="31.0" prefWidth="139.0" text="If not yet Registered" textFill="WHITE">
+         <font>
+            <Font size="14.0" />
+         </font></Label>
+      <Label contentDisplay="CENTER" layoutX="119.0" layoutY="257.0" prefHeight="21.0" prefWidth="307.0" text="                   Its all about movies!" textAlignment="CENTER" textFill="WHITE" />
+      <JFXButton layoutX="159.0" layoutY="320.0" prefHeight="47.0" prefWidth="228.0" style="-fx-background-color: E05C4A;" text="Sign Up" textFill="WHITE">
+         <font>
+            <Font size="17.0" />
+         </font></JFXButton>
+      <Label layoutX="1129.0" layoutY="1.0" text="X" textFill="WHITE">
+         <font>
+            <Font size="35.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

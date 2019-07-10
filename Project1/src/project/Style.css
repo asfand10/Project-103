@@ -1,0 +1,10 @@
+.body {
+    
+    -fx-background-image: url("/image/BackgroundImage.jpg"); 
+}
+.image{
+   -fx-background-image: url("/image/first-page background.jpg"); 
+}
+.body2{
+    
+}

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane id="AnchorPane" prefHeight="489.0" prefWidth="873.0" style="-fx-background-image: url(&quot;/image/first-page background.jpg&quot;);" styleClass="image" stylesheets="@Style.css" xmlns="http://javafx.com/javafx/8.0.141" xmlns:fx="http://javafx.com/fxml/1" fx:controller="project.MainController">
+   <children>
+      <ImageView fitHeight="532.0" fitWidth="872.0" layoutX="1.0" layoutY="1.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../image/page%203%20background.jpg" />
+         </image>
+      </ImageView>
+      <Label layoutX="24.0" layoutY="143.0" prefHeight="40.0" prefWidth="238.0" text="Movie Name" textFill="WHITE" />
+      <Label layoutX="24.0" layoutY="195.0" prefHeight="40.0" prefWidth="238.0" text="genre" textFill="WHITE" />
+      <Label layoutX="24.0" layoutY="246.0" prefHeight="40.0" prefWidth="238.0" text="Rating" textFill="WHITE" />
+      <Label layoutX="24.0" layoutY="294.0" prefHeight="40.0" prefWidth="238.0" text="cast" textFill="WHITE" />
+      <Label layoutX="24.0" layoutY="343.0" prefHeight="40.0" prefWidth="238.0" text="director" textFill="WHITE" />
+   </children>
+</AnchorPane>
